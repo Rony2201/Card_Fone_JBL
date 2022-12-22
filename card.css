@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tudo {
+    background: white;
+    margin-bottom: 2%;
+    display: flex;
+    width: 350px;
+    margin-left: 36.3%;
+    margin-top: -1%;
+    flex-direction: column;
+    border-radius: 0 0 10px 10px;
+}
+body {
+    background: rgb(68, 68, 68);
+    color: rgb(70, 70, 70);
+}
+
+.topo {
+    margin-top: 5%;
+    display: flex;
+    justify-content:center;
+}
+.topo .logo img {
+    border-radius: 10px 10px 0 0;
+}
+.principal {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+}
+.principal p {
+    margin-top: 10%;
+    margin-left: -22vh;
+}
+.principal h3 {
+    transition: all 0.5s;
+    margin-left: -8vh;
+}
+.redes {
+    transition: all 0.5s;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    margin-left: 2vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    width: 90%;
+    cursor: pointer;
+}
+.mensagem-final {
+    text-align: center;
+    display: flex;
+    margin-left: 2vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    width: 100%;
+}
+.btn {
+    font-size: 20px;
+    margin-bottom: 2vh;
+    margin-left: 12vh;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: rgb(41, 194, 255);
+    text-align: center;
+    width: 40%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.valor {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
